@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		0EF7E39A2640E8DE0050A3D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7E3992640E8DE0050A3D2 /* main.m */; };
 		0EF7E3A42640E8DE0050A3D2 /* ZFFPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7E3A32640E8DE0050A3D2 /* ZFFPlayerTests.m */; };
 		0EF7E3AF2640E8DE0050A3D2 /* ZFFPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7E3AE2640E8DE0050A3D2 /* ZFFPlayerUITests.m */; };
+		0EF7E42A264141250050A3D2 /* ZFFPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7E429264141250050A3D2 /* ZFFPlayerManager.m */; };
 		1D0AE56F24F9A08D7A65BAD4 /* Pods_ZFFPlayer_ZFFPlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FFC084B285364CC8ADF96D /* Pods_ZFFPlayer_ZFFPlayerUITests.framework */; };
 		2F3811BA16E40F7DA488D96E /* Pods_ZFFPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB26304B9707AA374E1B7DC5 /* Pods_ZFFPlayer.framework */; };
 		CF23A36BCE7ECAFE6E2FB294 /* Pods_ZFFPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12A0E55FADB7A4B3D596A57 /* Pods_ZFFPlayerTests.framework */; };
@@ -58,6 +59,8 @@
 		0EF7E3AA2640E8DE0050A3D2 /* ZFFPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFFPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF7E3AE2640E8DE0050A3D2 /* ZFFPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFFPlayerUITests.m; sourceTree = "<group>"; };
 		0EF7E3B02640E8DE0050A3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EF7E428264141250050A3D2 /* ZFFPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFFPlayerManager.h; sourceTree = "<group>"; };
+		0EF7E429264141250050A3D2 /* ZFFPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFFPlayerManager.m; sourceTree = "<group>"; };
 		762DBADFEF975A15511BEE40 /* Pods-ZFFPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFFPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-ZFFPlayerTests/Pods-ZFFPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
 		7EF506942FB2B4B079600B94 /* Pods-ZFFPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFFPlayer.debug.xcconfig"; path = "Target Support Files/Pods-ZFFPlayer/Pods-ZFFPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		89C3CFF839ACC8424F6859D8 /* Pods-ZFFPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFFPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-ZFFPlayerTests/Pods-ZFFPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				0EF7E3952640E8DE0050A3D2 /* LaunchScreen.storyboard */,
 				0EF7E3982640E8DE0050A3D2 /* Info.plist */,
 				0EF7E3992640E8DE0050A3D2 /* main.m */,
+				0EF7E428264141250050A3D2 /* ZFFPlayerManager.h */,
+				0EF7E429264141250050A3D2 /* ZFFPlayerManager.m */,
 			);
 			path = ZFFPlayer;
 			sourceTree = "<group>";
@@ -164,7 +169,6 @@
 				89C3CFF839ACC8424F6859D8 /* Pods-ZFFPlayerTests.debug.xcconfig */,
 				762DBADFEF975A15511BEE40 /* Pods-ZFFPlayerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -419,6 +423,7 @@
 				0EF7E3892640E8DA0050A3D2 /* AppDelegate.m in Sources */,
 				0EF7E39A2640E8DE0050A3D2 /* main.m in Sources */,
 				0EF7E38C2640E8DA0050A3D2 /* SceneDelegate.m in Sources */,
+				0EF7E42A264141250050A3D2 /* ZFFPlayerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
