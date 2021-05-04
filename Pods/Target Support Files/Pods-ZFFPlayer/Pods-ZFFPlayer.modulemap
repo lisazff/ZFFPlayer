@@ -1,0 +1,6 @@
+framework module Pods_ZFFPlayer {
+  umbrella header "Pods-ZFFPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
